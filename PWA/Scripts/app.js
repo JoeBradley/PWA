@@ -26,8 +26,7 @@
     addDialog: document.querySelector('.dialog-container'),
     daysOfWeek: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   };
-
-
+    
   /*****************************************************************************
    *
    * Event listeners for UI elements
