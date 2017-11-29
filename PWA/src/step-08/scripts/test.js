@@ -13,9 +13,8 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-* @param {string} appName - Application Name
  */
-function loadApp(appName) {
+(function() {
   'use strict';
 
   var app = {
@@ -373,4 +372,4 @@ function loadApp(appName) {
              .register('./service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
-}
+})();
