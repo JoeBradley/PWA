@@ -81,33 +81,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\jasmine\jasmine.css" />
+    <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Global.asax" />
-    <Content Include="Index.html" />
-    <Content Include="src\final\favicon.ico" />
-    <Content Include="src\final\images\clear.png" />
-    <Content Include="src\final\images\cloudy-scattered-showers.png" />
-    <Content Include="src\final\images\cloudy.png" />
-    <Content Include="src\final\images\cloudy_s_sunny.png" />
-    <Content Include="src\final\images\fog.png" />
-    <Content Include="src\final\images\icons\icon-128x128.png" />
-    <Content Include="src\final\images\icons\icon-144x144.png" />
-    <Content Include="src\final\images\icons\icon-152x152.png" />
-    <Content Include="src\final\images\icons\icon-192x192.png" />
-    <Content Include="src\final\images\icons\icon-256x256.png" />
-    <Content Include="src\final\images\icons\icon-32x32.png" />
-    <Content Include="src\final\images\ic_add_white_24px.svg" />
-    <Content Include="src\final\images\ic_refresh_white_24px.svg" />
-    <Content Include="src\final\images\partly-cloudy.png" />
-    <Content Include="src\final\images\rain.png" />
-    <Content Include="src\final\images\scattered-showers.png" />
-    <Content Include="src\final\images\sleet.png" />
-    <Content Include="src\final\images\snow.png" />
-    <Content Include="src\final\images\thunderstorm.png" />
-    <Content Include="src\final\images\wind.png" />
-    <Content Include="src\final\index.html" />
-    <Content Include="src\final\scripts\app.js" />
-    <Content Include="src\final\service-worker.js" />
-    <Content Include="src\final\styles\inline.css" />
+    <Content Include="Scripts\jasmine\boot.js" />
+    <Content Include="Scripts\jasmine\console.js" />
+    <Content Include="Scripts\jasmine\jasmine-html.js" />
+    <Content Include="Scripts\jasmine\jasmine.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\clear.png" />
+    <Content Include="images\cloudy-scattered-showers.png" />
+    <Content Include="images\cloudy.png" />
+    <Content Include="images\cloudy_s_sunny.png" />
+    <Content Include="images\fog.png" />
+    <Content Include="images\icons\icon-128x128.png" />
+    <Content Include="images\icons\icon-144x144.png" />
+    <Content Include="images\icons\icon-152x152.png" />
+    <Content Include="images\icons\icon-192x192.png" />
+    <Content Include="images\icons\icon-256x256.png" />
+    <Content Include="images\icons\icon-32x32.png" />
+    <Content Include="images\ic_add_white_24px.svg" />
+    <Content Include="images\ic_refresh_white_24px.svg" />
+    <Content Include="images\partly-cloudy.png" />
+    <Content Include="images\rain.png" />
+    <Content Include="images\scattered-showers.png" />
+    <Content Include="images\sleet.png" />
+    <Content Include="images\snow.png" />
+    <Content Include="images\thunderstorm.png" />
+    <Content Include="images\wind.png" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\service-worker.js" />
+    <Content Include="Scripts\Test\app.tests.js" />
+    <Content Include="styles\inline.css" />
     <Content Include="src\resources\push-supplement\ic_more_vert_white_24px.svg" />
     <Content Include="src\resources\push-supplement\libs.min.js" />
     <Content Include="src\resources\push-supplement\push.css" />
@@ -294,7 +300,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="src\CONTRIBUTING.md" />
-    <Content Include="src\final\manifest.json" />
+    <Content Include="manifest.json" />
     <Content Include="src\LICENSE" />
     <Content Include="src\README.md" />
     <Content Include="src\step-08\manifest.json" />
@@ -309,6 +315,8 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="src\final\scripts\" />
+    <Folder Include="Test\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
